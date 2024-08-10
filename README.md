@@ -38,4 +38,31 @@ int main()
     {  
         printf("not eligible for vote");   
     }  
-}  
+} 
+#include <stdio.h>  
+int main()  
+{  
+    int marks;   
+    printf("Enter your marks?");  
+    scanf("%d",&marks);   
+    if(marks > 85 && marks <= 100)  
+    {  
+        printf(" grade A");   
+    }  
+    else if (marks > 60 && marks <= 85)   
+    {  
+        printf("grade B +");  
+    }  
+    else if (marks > 40 && marks <= 60)   
+    {  
+        printf("grade B");  
+    }  
+    else if (marks > 30 && marks <= 40)   
+    {  
+        printf("grade C");   
+    }  
+    else   
+    {  
+        printf("fail");   
+    }  
+}   
