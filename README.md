@@ -38,6 +38,7 @@ int main()
     {  
         printf("not eligible for vote");   
     }  
+return 0;
 } 
 #include <stdio.h>  
 int main()  
